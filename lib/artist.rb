@@ -36,7 +36,6 @@ class Artist
   end
 
   def print_songs
-    puts @@all.each do |i| i.name end
+    puts self.all.each do |i| i.name end
   end
 end
-binding.pry
