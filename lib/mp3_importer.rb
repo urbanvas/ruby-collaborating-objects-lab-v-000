@@ -5,6 +5,6 @@ class MP3Importer
   end
 
   def import(direct)
-    
+    Dir.new(../db/mp3s).collect {|file| puts file.}
 
 end
