@@ -7,6 +7,8 @@ class MP3Importer
 
   def files
     location = Dir.entries(@path)
+    entries = entries.delete_if { |e| e.size < 3 } 
+    entries
   end
 
   def import
