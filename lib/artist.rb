@@ -35,4 +35,7 @@ class Artist
     self.all.detect{|a| a.name == artist} || Artist.create(artist)
   end
 
+  def print_songs
+    puts @@all
+  end
 end
