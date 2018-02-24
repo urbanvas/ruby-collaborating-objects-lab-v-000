@@ -39,3 +39,4 @@ class Artist
     puts @@all.each do |i| i.name end
   end
 end
+binding.pry
