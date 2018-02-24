@@ -6,7 +6,8 @@ class Song
   end
 
   def self.new_by_filename(file)
-    Song.new(file)
+    a = Song.new(file)
+    a
   end
 
 end
